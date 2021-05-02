@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Jacob Slater</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'> 
+  <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+  <script src='js/main.js'></script>
+  <script src="https://kit.fontawesome.com/d173824a58.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+
+<body>
+  <nav>
+    <h1 class = "logo"><a href="#home">Jacob Slater</a></h1>
+      <input type="checkbox" id="hamburger-toggle">
+        <label for="hamburger-toggle" class="hamburger">
+          <span class="bar"></span>
+        </label>
+          <ul class ="navlist" id="topnav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="./Resume.pdf">Resume</a></li>
+          </ul>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="hero-inner">
+        <h1>Jacob Slater</h1>
+        <h2>Front-End Developer & Web Designer </h2>
+        <div class="hero-buttons">
+        <a href="#portfolio" class="btn">My Portfolio</a>
+         <a href="#contact" class="contact-btn">Contact Me</a>
+        </div>
+    </div>
+  </section>
+
+
+  <section class="about-section" id="about">
+    <h1>About Me</h1>
+    <div class="container">
+      <div class="about-pic">
+        <img src="images/img_avatar.jpg" alt="Avatar" class= "portfolio-pic"></div>
+          <div class="about-text">
+            <p><strong>Hello. </strong>My name is Jacob. I'm a web designer and developer in New Jersey. I have expereince working with HTMl and CSS. I am highly motivated, self-driven, and constantly working to improve my skills.</p>
+
+            <p> I started creating websites with HTML and CSS back in 2020. I am extremely passionate about coding and I love to learn new things every day and keep up with the new technologies.</p>
+            <h2>My Technical Skills:</h2>
+            <div class="skills">
+              <div class="div1"> <img src="images/html_logo.png" alt="HTML Logo" class= "skills-pic">
+              </div>
+              <div class="div2"><img src="images/css_logo.png" alt="CSS Logo" class= "skills-pic">
+              </div>
+              <div class="div3"><img src="images/javascript_logo.png" alt="Javascript Logo" class= "skills-pic">
+              </div>
+              <div class="div4"><img src="images/bootstrap_logo.png" alt="Bootstrap Logo" class= "skills-pic">
+              </div>
+              <div class="div5"><img src="images/git_logo.png" alt="Git Logo" class= "skills-pic">
+              </div>
+              <div class="div6"><img src="images/photoshop_logo.png" alt="Photoshop Logo" class= "skills-pic">
+              </div>
+            </div>
+          </div>
+        </div>
+      <hr/>
+  </section>
+  
+
+    
+  <section class="portfolio-section" id="portfolio">
+    <h1>Portfolio</h1>
+      <div class="cards">
+
+        <div class="card">
+            <div class="card-image" style="background-image: url('/images/img_avatar.jpg')">
+            <div class="card-content">
+              <div class="card-title">Example 1</div>
+              <div class="card-info">
+                <a href="#portfolio" class="card-button">Live Code</a>
+                <a href="#portfolio" class="card-button">Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+    
+      </div>
+    <hr/> 
+  </section>
+
+
+  <section class="contact-section" id="contact">
+    
+    <div class="container">
+      <h1>Contact Me</h1>
+      <div class="grid-container">
+        <div class="contact-text">
+          <h2>Let's Get in Touch</h2>
+          <p>Don't hesitate to reach out!</p>
+          <h4>Name:</h4>
+          <p><a href="Linkedin.com/jacobslater"><i class="fab fa-linkedin"></i> Jacob Slater</a></p>
+          <h4>Address:</h4>
+           <p><a href="https://goo.gl/maps/9zDX6SbZXR3Kp4mk8"><i class="fas fa-map-marker-alt"></i> Toms River, New Jersey</a></p>
+          <h4>Email:</h4>
+           <p><a href="mailto:jmslater6@yahoo.com"><i class="far fa-envelope"></i> Jmslater6@yahoo.com</a></p>
+           <h4>Phone</h4>
+           <p><a href="tel:+732-504-4555"><i class="fas fa-phone-alt"></i> 732-504-4555</a></p>
+         </div>
+       
+      
+       
+
+        <div class="contact-container">
+          
+          <form action="#" name="contact_form">
+            <h3>Message Me</h3>
+            <label for="first_name"></label>
+            <input name="first_name" type="text" required placeholder="Name"/>
+            <br>
+            <label for="email"></label>
+            <input name="email" type="email" required placeholder="Email"/>
+            <br>
+            <label for="subject"></label>
+            <input name="subject" type="text" required placeholder="Subject"/>
+            <br>
+            <label for="message"></label><br>
+            <textarea name="message" cols="30" rows="10" required placeholder="Message.." required style="height: 110px;"></textarea>
+            <div class="center">
+              <input type="submit" value="Submit">
+            </div>
+          </form>	
+        </div>
+      </div>
+     
+     
+      </div>
+   
+    </div>
+  <hr/>
+     <!-- Footer -->
+  <footer class="footer-section">
+    <div class="footer-code-by">
+        <p>Coded by Jacob Slater © 2020</p>
+        <p>Built with pure HTML, CSS and JavaScript</p>
+    </div>
+   
+  </footer>
+  </section>
+
+
+
+
+</body>
+</html>
